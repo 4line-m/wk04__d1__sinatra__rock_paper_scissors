@@ -6,7 +6,11 @@ get '/' do
   erb(:home)
 end
 
-get '/throw/:player_1/:player_2' do
+get '/rules' do
+  erb(:rules)
+end
+
+get '/rock_paper_scissors/:player_1/:player_2' do
   game = Game.new(params[:player_1], params[:player_2])
   @game = game.throw()
   erb(:result)
