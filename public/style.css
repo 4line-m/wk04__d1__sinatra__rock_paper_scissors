@@ -1,5 +1,7 @@
 body {
-    background-image: url("https://upload.wikimedia.org/wikipedia/commons/6/67/Rock-paper-scissors.svg");
+    background-image: url("http://www.gifmania.co.uk/Objects-Animated-Gifs/Animated-Toys/Rock-Paper-Scissors/Rock-Paper-Scissors-87021.gif");
+    background-color: #F4E9D7;
     background-repeat: no-repeat;
     background-position: top right;
+    font: 15px/1.5 Arial, Helvetica,sans-serif;
 }
